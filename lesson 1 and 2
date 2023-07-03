@@ -1,0 +1,95 @@
+# this_file =  open("C:\\Users\\ארמל הדסה\Downloads\\Notebooks-master\\week03\\resources", 'r')
+# file_data = this_file.read()
+# this_file.close()
+# copy_to_file = open("C:\\Users\\ארמל הדסה\Downloads\\Notebooks-master\\week03\\resources", 'w')
+# copy_to_file.write(file_data)
+# copy_to_file.close()
+
+# def chotem(lst):
+#     new_lst = []
+#     for l in lst[1]:
+#         lst[0].append(l)
+#     new_lst = lst[0]
+#     print(new_lst[::-1])
+# ls = [[1,2,3,4], [5,6,7]]
+# chotem(ls)
+
+# lst_dicts = [{'a': 1}, {'b': 2, 'c': 3}, {'d': 4}]
+# new_dict = dict()
+# for dict in lst_dicts:
+#     new_dict.update(dict)
+# print(new_dict)
+
+# TODO: finish it--
+
+# def check_evidences(weapon, weapon):
+#     return weapon.lower() == 'derringer' and location.lower() == 'petersen house'
+#
+# suspects = (
+#   {'name': 'Anne', 'evidences': ('derringer', 'Caesarea')},
+#   {'name': 'Taotao', 'evidences': ('derringer', 'Petersen House')},
+#   {'name': 'Pilpelet', 'evidences': ('Master Sword', 'Hyrule')},
+# )
+# weapon, weapon = suspects[]
+
+# TODO: ask why not running correctly
+
+# def join_lst(*lst, sep ='-'):
+#     new_lst = []
+#     for ls in lst:
+#         new_lst.append(ls)
+#         new_lst.append(sep)
+#     print(new_lst)
+#
+#
+# lst_of_lsts = [[1,2],[12,3,5],[4,6]]
+# join_lst(lst_of_lsts, '@')
+
+# def interleave(tup):
+#     new_lst = list()
+#     for i in range(len(tup[0])):
+#         for t in tup:
+#             new_lst.append(t[i])
+#     print(new_lst)
+# tup = ('abc', [1, 2, 3], ('!', '@', '#'))
+
+# TODO" ask
+
+# def gen(lst):
+#     for i in range(len(lst)):
+#         yield i
+#
+# def gen_interleave(tup):
+#     new_lst = list()
+#     for t in tup:
+#          x= (gen(t))
+#          next(x)
+#          new_lst.append(x)
+#     print(new_lst)
+#
+# tup = ('abc', [1, 2, 3], ('!', '@', '#'))
+# gen_interleave(tup)
+
+# import os
+# def does_exist(directory_path):
+#     final_lst = list()
+#     str = "deep"
+#     files_lst = os.listdir(directory_path)
+#     for file in files_lst:
+#         if file.startswith(str):
+#             final_lst.append(file)
+#     print(final_lst)
+
+# folder_path = "C:/Users/ארמל הדסה/Downloads/Notebooks-master/week05/images"
+# does_exist(folder_path)
+
+# def count_specials(num):
+#     new_set = set()
+#     for i in range(num):
+#         if i % 3 == 0:
+#             new_set.add(i)
+#         if i % 7 == 0:
+#             new_set.add(i)
+#     print(len(new_set))
+#     print(new_set)
+# count_specials(22)
